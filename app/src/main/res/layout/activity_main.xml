@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.zyz.wechatfriendsdemo.ui.view.FriendsListView
+        android:id="@+id/friends_auto_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/friends_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="1dp"
+            android:scrollbars="none" />
+
+    </com.zyz.wechatfriendsdemo.ui.view.FriendsListView>
+
+    <com.zyz.wechatfriendsdemo.ui.view.EntryFramManager
+        android:id="@+id/friends_entry"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" />
+</RelativeLayout>

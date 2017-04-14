@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WeChatFriendCircle</string>
+    <string name="entry_send_text">发送</string>
+    <string name="friend_user_name">刘海</string>
+    <string name="friend_personal_sign">胡大姐好美丽</string>
+
+</resources>

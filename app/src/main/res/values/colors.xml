@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="entryfram_back">#E3E6ED</color>
+    <color name="entryfram_send">#2EC5C2</color>
+    <color name="entryfram_stoke">#acacac</color>
+    <color name="edit_back">#FFFFFF</color>
+</resources>
